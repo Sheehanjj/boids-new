@@ -1,4 +1,4 @@
 sceneSetups:
-- path: C:/Users/sheehanj/Downloads/boids-master/boids-master/Assets/_scene0.unity
+- path: Assets/_Scene0.unity
   isLoaded: 1
   isActive: 1
