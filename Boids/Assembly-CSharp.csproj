@@ -54,6 +54,7 @@
      <Compile Include="Assets\Attractor.cs" />
      <Compile Include="Assets\Boid.cs" />
      <Compile Include="Assets\LookAtAttractor.cs" />
+     <Compile Include="Assets\Neighborhood.cs" />
      <Compile Include="Assets\Spawner.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

@@ -285,6 +285,7 @@
     <Compile Include="Assets\Attractor.cs" />
     <Compile Include="Assets\Boid.cs" />
     <Compile Include="Assets\LookAtAttractor.cs" />
+    <Compile Include="Assets\Neighborhood.cs" />
     <Compile Include="Assets\Spawner.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
