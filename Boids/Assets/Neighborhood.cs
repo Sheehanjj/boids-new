@@ -44,7 +44,7 @@ public class Neighborhood : MonoBehaviour {
 			Vector3 avg = Vector3.zero;
 			if (neighbors.Count == 0)
 				return avg;
-			for (int i = 0; i <= neighbors.Count; i++) {
+			for (int i = 0; i < neighbors.Count; i++) {
 				avg += neighbors [i].pos;
 			}
 			avg /= neighbors.Count;
@@ -58,8 +58,8 @@ public class Neighborhood : MonoBehaviour {
 			Vector3 avg = Vector3.zero;
 			if (neighbors.Count == 0)
 				return avg;
-			for (int i = 0; i <= neighbors.Count; i++) {
-				avg += neighbors [i].rigid.velocity;
+			for (int i = 0; i < neighbors.Count; i++) {
+				avg += neighbors[i].rigid.velocity;
 			}
 			avg /= neighbors.Count;
 
